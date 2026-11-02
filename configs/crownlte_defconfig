@@ -1,0 +1,5 @@
+# HakiOS defconfig for the Samsung Galaxy Note9 (crownlte, SM-N960F, Exynos 9810, devices/crownlte): the common kernel, the Exynos 9810's facts
+# (the same soc/ as the S9's) and this phone's own. Nothing of the phone's is loaded; nothing has run on this phone yet.
+#include common_defconfig
+#include exynos9810.config
+#include crownlte.config
